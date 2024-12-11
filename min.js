@@ -23,3 +23,22 @@ Buon lavoro e buon divertimento! :slightly_smiling_face: */
 // 7) Mi devo ricordare di stampare per ognuna delle condizion interne il consol.log dentro le parentesi giuste XD
 
 
+// Punto 1
+const multipliTre = "Fizz";
+const multipliCinque = "Buzz";
+
+// Punto 2
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(multipliTre + multipliCinque); // Punto 3 - 7
+    }
+    else if (i % 3 === 0) {
+        console.log(multipliTre); // Punto 4 - 7
+    } else if (i % 5 === 0) {
+        console.log(multipliCinque); // Punto 5 - 7
+    } 
+    else {
+        console.log(i); // Punto 6-7
+}
+}
+
