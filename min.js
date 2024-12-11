@@ -15,7 +15,7 @@ Buon lavoro e buon divertimento! :slightly_smiling_face: */
 
 
 // 1) Devo inizializzare le costanti per i due numeri a cui attribuisco i valori
-// 2) Devo inserire il ciclo fore che va da 1 a 100 con l'incrementatore
+// 2) Devo inserire il ciclo for che va da 1 a 100 con l'incrementatore
 // 3) Devo innestare un if per iniziare la condizione inerente ai multipli combinati 3-5
 // 4) Devo innestare un else if per iniziare la condizione inerente ai multipli di 3
 // 5) Devo innestare else if come secondo inerente ai multipli di 5 
