@@ -21,21 +21,21 @@ Buon lavoro e buon divertimento! :slightly_smiling_face: */
 // 5) Devo innestare else if come secondo inerente ai multipli di 5 
 // 6) Devo innestare else come ultimo parametro di chiusura
 // 7) Mi devo ricordare di stampare per ognuna delle condizion interne il consol.log dentro le parentesi giuste XD
-
+// 8) Mi devo ricordare di mettere le variabili in inglese xD (corrette)
 
 // Punto 1
-const multipliTre = "Fizz";
-const multipliCinque = "Buzz";
+const mulThree = "Fizz";
+const mulFive = "Buzz";
 
 // Punto 2
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log(multipliTre + multipliCinque); // Punto 3 - 7
+        console.log(mulThree + mulFive); // Punto 3 - 7
     }
     else if (i % 3 === 0) {
-        console.log(multipliTre); // Punto 4 - 7
+        console.log(mulThree); // Punto 4 - 7
     } else if (i % 5 === 0) {
-        console.log(multipliCinque); // Punto 5 - 7
+        console.log(mulFive); // Punto 5 - 7
     } 
     else {
         console.log(i); // Punto 6-7
